@@ -9,13 +9,13 @@ b = int(input())
 print (a,b)
 
 def foo(a,b):
-    print('a+b=',a+b)
-    print('a-b=',a-b)
-    print('a/b=',a/b)
-    print('a*b=',a*b)
-    print('a**b=',a**b)
-    print('sqrt(a)=',mat.sqrt(a))
-    print('sqrt(b)=',mat.sqrt(b))
+    print(a,'+',b,'=',a+b)
+    print(a,'-',b,'=',a-b)
+    print(a,'/',b,'=',a/b)
+    print(a,'*',b,'=',a*b)
+    print(a,'**',b,'=',a**b)
+    print('sqrt','(',a,')','=',mat.sqrt(a))
+    print('sqrt', '(', b, ')', '=', mat.sqrt(b))
 
 foo(a,b)
 
